@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_exam"
+            android:icon="@drawable/ic_action_add"
+            android:title="Add Exam" />
+        <item
+            android:id="@+id/nav_exam_history"
+            android:icon="@drawable/ic_action_history"
+            android:title="Exam History" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_action_pw"
+            android:title="Project Info" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Instruction" />
+        <item
+            android:id="@+id/nav_manage1"
+            android:icon="@drawable/ic_action_money"
+            android:title="Expenses" />
+
+
+    <item  android:id="@+id/nav_manage3"
+        android:icon="@drawable/ic_action_event"
+        android:title="Event" />
+
+    </group>
+
+
+
+
+</menu>

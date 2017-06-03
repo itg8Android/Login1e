@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#cfcbcb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/back_slide"
+        app:cardElevation="7dp"
+        app:cardPreventCornerOverlap="true"
+
+        app:cardUseCompatPadding="true"
+        app:cardMaxElevation="5dp"
+        app:cardBackgroundColor="@color/cardview_light_background"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="0dp"
+        app:contentPadding="16dp"
+        android:id="@+id/view">
+
+
+        <Spinner
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_height="30dp"></Spinner>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal"
+            android:layout_alignTop="@+id/view"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linear_view_exam"
+            android:layout_marginTop="133dp">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:hint="From"
+                android:textSize="12sp"
+                android:drawableRight="@drawable/from_journy"
+                android:inputType="text"
+                android:background="@drawable/back_stroke"
+                android:paddingLeft="@dimen/padding_edit_text_frag"
+                android:id="@+id/present_edi_text_exam"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.5"
+                android:hint="To"
+                android:textSize="@dimen/edit_text_size_dd"
+                android:drawableRight="@drawable/to_journy"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="10dp"
+
+                android:inputType="text"
+                android:background="@drawable/back_stroke"
+                android:id="@+id/absent_edi_text_exam"/>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            android:hint="Amount"
+            android:drawableRight="@drawable/amount_rupee"
+            android:layout_marginTop="200dp"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/edit_text_size_dd"
+            android:inputType="text"
+            android:background="@drawable/back_stroke"
+            android:id="@+id/amount_edi_text_exam" />
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login1e</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_exam">ExamActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_here">Search Sector Here</string>
+    <string name="title_activity_add_assessor">AddAssessor</string>
+    <string name="rationale_storage">Need permission for storage</string>
+</resources>
